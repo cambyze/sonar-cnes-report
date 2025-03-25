@@ -85,7 +85,7 @@ public class ReportTest {
   }
 
   @Test(expected = BadSonarQubeRequestException.class)
-  public void executeCambyzeTest() throws Exception {
+  public voiddddd executeCambyzeTest() throws Exception {
     String[] args = new String[8];
     args[0] = "-s";
     args[1] = "http://cambyze.com:9000"; // Cambyze SonarQube Server
