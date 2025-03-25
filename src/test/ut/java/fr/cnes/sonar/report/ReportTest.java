@@ -92,7 +92,7 @@ public class ReportTest {
     args[2] = "-p";
     args[3] = "sonar-cnes-report";
     args[4] = "-t";
-    args[5] = "sqp_1307bc99b31239641889e12df1616a8a0b6cde88";
+    args[5] = "***false token****";
     args[6] = "-a";
     args[7] = "Cambyze";
     ReportCommandLine.execute(args);
